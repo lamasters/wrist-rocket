@@ -1,0 +1,38 @@
+{
+  "name": "wrist-rocket",
+  "author": "Liam Masters",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Wrist Rocket",
+    "uuid": "604f683f-e643-4cb5-b72e-849d40f84755",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "ROCKET",
+          "file": "rocket.png"
+        }
+      ]
+    },
+    "messageKeys": [
+      "MINUTES_TO_LAUNCH",
+      "ROCKET"
+    ]
+  }
+}

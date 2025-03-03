@@ -1,0 +1,28 @@
+[
+    {
+        "type": "section",
+        "items": [
+            {
+                "type": "heading",
+                "defaultValue": "Wrist Rocket Settings"
+            },
+            {
+                "type": "input",
+                "messageKey": "OWM_API_KEY",
+                "label": "OpenWeatherMap API Key",
+                "description": "If this is included, the watchface will display the current weather. Get your API key at openweathermap.org."
+            },
+            {
+                "type": "select",
+                "messageKey": "UNITS",
+                "label": "Weather Units",
+                "defaultValue": "C",
+                "options": [
+                    {"label": "Celsius", "value": "C"},
+                    {"label": "Fahrenheit", "value": "F"}
+                ]
+            },
+            {"type": "submit", "defaultValue": "Save"}
+        ]
+    }
+]

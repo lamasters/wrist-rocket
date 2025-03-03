@@ -6,7 +6,9 @@
     "pebble-app"
   ],
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "pebble-clay": "1.0.4"
+  },
   "pebble": {
     "displayName": "Wrist Rocket",
     "uuid": "604f683f-e643-4cb5-b72e-849d40f84755",
@@ -27,12 +29,51 @@
           "type": "bitmap",
           "name": "ROCKET",
           "file": "rocket.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "CLEAR",
+          "file": "weather_icons/clear.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "CLOUDS",
+          "file": "weather_icons/clouds.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "RAIN",
+          "file": "weather_icons/rain.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "SNOW",
+          "file": "weather_icons/snow.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "LIGHTNING",
+          "file": "weather_icons/lightning.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "FOG",
+          "file": "weather_icons/fog.png"
         }
       ]
     },
     "messageKeys": [
       "MINUTES_TO_LAUNCH",
-      "ROCKET"
+      "ROCKET",
+      "OWM_API_KEY",
+      "MESSAGE_TYPE",
+      "TEMPERATURE",
+      "CONDITIONS",
+      "UNITS"
+    ],
+    "capabilities": [
+      "configurable",
+      "location"
     ]
   }
 }

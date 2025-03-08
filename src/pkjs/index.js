@@ -94,10 +94,10 @@ function getLaunchData() {
   };
   xhr.open(
     "GET",
-    "http://homelab.hippogriff-lime.ts.net/v1" +
+    "https://cloud.appwrite.io/v1" +
       "/databases/6689a86c002a9fb1b740" +
       "/collections/67b3d257002fbfda61e9" +
-      "/documents?project=65aad3806c956cf09df4" +
+      "/documents?project=67cc9f770031b2c18340" +
       "&queries[0]=%7B%22method%22:%22orderAsc%22,%22attribute%22:%22net%22%7D" +
       "&queries[1]=%7B%22method%22:%22equal%22,%22attribute%22:%22launched%22,%22values%22:[false]%7D" +
       "&queries[2]=%7B%22method%22:%22limit%22,%22values%22:[1]%7D"

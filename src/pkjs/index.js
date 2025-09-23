@@ -32,12 +32,10 @@ function getWeatherData() {
       xhr.onload = function () {
         var response = JSON.parse(xhr.responseText);
         var temperature = Math.round(response.main.temp);
-        var conditions = weatherIdToIconIndex(response.weather[0].id);
         Pebble.sendAppMessage(
           {
             UNITS: settings.UNITS || "C",
             TEMPERATURE: temperature,
-            CONDITIONS: conditions,
           },
           function (e) {
             console.log("Weather info sent to Pebble successfully!");

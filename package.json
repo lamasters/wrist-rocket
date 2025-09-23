@@ -18,7 +18,8 @@
       "aplite",
       "basalt",
       "chalk",
-      "diorite"
+      "diorite",
+      "emery"
     ],
     "watchapp": {
       "watchface": true
@@ -28,37 +29,39 @@
         {
           "type": "bitmap",
           "name": "ROCKET",
-          "file": "rocket.png"
+          "file": "images/rocket.png"
         },
         {
           "type": "bitmap",
-          "name": "CLEAR",
-          "file": "weather_icons/clear.png"
+          "name": "ROCKET_LARGE",
+          "file": "images/rocket_large.png"
         },
         {
-          "type": "bitmap",
-          "name": "CLOUDS",
-          "file": "weather_icons/clouds.png"
+          "characterRegex": "[0-9: ]",
+          "type": "font",
+          "name": "FONT_SILKSCREEN_58",
+          "file": "Silkscreen-Regular.ttf"
         },
         {
-          "type": "bitmap",
-          "name": "RAIN",
-          "file": "weather_icons/rain.png"
+          "characterRegex": "[0-9: ]",
+          "type": "font",
+          "name": "FONT_SILKSCREEN_42",
+          "file": "Silkscreen-Regular.ttf"
         },
         {
-          "type": "bitmap",
-          "name": "SNOW",
-          "file": "weather_icons/snow.png"
+          "type": "font",
+          "name": "FONT_SILKSCREEN_28",
+          "file": "Silkscreen-Regular.ttf"
         },
         {
-          "type": "bitmap",
-          "name": "LIGHTNING",
-          "file": "weather_icons/lightning.png"
+          "type": "font",
+          "name": "FONT_SILKSCREEN_24",
+          "file": "Silkscreen-Regular.ttf"
         },
         {
-          "type": "bitmap",
-          "name": "FOG",
-          "file": "weather_icons/fog.png"
+          "type": "font",
+          "name": "FONT_SILKSCREEN_18",
+          "file": "Silkscreen-Regular.ttf"
         }
       ]
     },
@@ -68,7 +71,6 @@
       "OWM_API_KEY",
       "MESSAGE_TYPE",
       "TEMPERATURE",
-      "CONDITIONS",
       "UNITS"
     ],
     "capabilities": [
